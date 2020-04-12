@@ -1,0 +1,508 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: "メイリオ", sans-serif;
+    color: #333;
+}
+
+p {
+    margin: 0;
+}
+
+body h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+body h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+}
+
+.logo {
+    background-color: #7E1445;
+    height: 80px;
+    text-align: center;
+}
+
+.logo img {
+    height: 70px;
+    margin: 5px 0;
+}
+
+.eyecatch {
+    padding-bottom: 80px;
+    background-color: black;
+}
+
+.eyecatch img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.eyecatch p {
+    margin: 0;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.icon {
+    display: inline-block;
+    color: white;
+    margin: 0 20px;
+}
+
+
+
+.btn {
+    text-decoration: none;
+    background: #7E1445;
+    color: #fff;
+    display: block;
+    width: 250px;
+    line-height: 44px;
+    margin: 100px auto;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.shiraishi {
+    text-align: center;
+    font-family: serif;
+    margin-bottom: 50px;
+    padding: 100px 0;
+}
+
+.yacht {
+    background-color: #85023E;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.yacht p {
+    line-height: 3;
+    padding: 0 auto;
+}
+
+.aboutyacht .info {
+    display: inline-block;
+    width: 350px;
+}
+
+.aboutyacht .flash {
+    width: 200px;
+}
+
+.aboutyacht .whatisyacht {
+    width: 300px;
+}
+
+.aboutyacht .snipes {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.aboutyacht .info {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.aboutclass {
+    padding: 50px 0;
+}
+
+.aboutclass h1 {
+    padding: 50px 0;
+}
+
+.aboutclass img {
+    width: 300px;
+    max-width: 700px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.club {
+    padding: 100px 0;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+.aboutclub h1 {
+    padding: 50px 0;
+}
+
+.aboutclub .flag {
+    width: 90%;
+    max-width: 700px;
+    padding-bottom: 50px;
+}
+
+.aboutclub .aim, .slogan {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+}
+
+.aboutclub .result {
+    line-height: 2;
+}
+
+.aboutclub .redfont {
+    color: red;
+}
+
+.aboutclub p {
+    padding: 0 30px;
+    line-height: 2;
+}
+
+.aboutclub .info {
+    width: 300px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutclub .nanadai {
+    width: 90%;
+    max-width: 700px;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+.captain {
+    padding: 100px 0 0;
+    text-align: center;
+}
+
+.captain h1 {
+    padding: 50px 0;
+}
+
+.captain h2 {
+    padding: 20px 0;
+    line-height: 2;
+}
+
+.captain img {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px black solid;
+}
+
+.captain p {
+    display: inline-block;
+    width: 300px;
+    padding: 0 30px;
+    line-height: 2;
+    text-align: left;
+}
+
+.datayacht {
+    background: #85023E;
+    text-align: center;
+    padding: 100px 0;
+}
+
+[src="img/flash.png"] {
+    width: 200px;
+}
+
+.datayacht .flash {
+    display: inline-block;
+    width: 200px;
+}
+
+.datayacht .title {
+    display: inline-block;
+    width: 350px;
+}
+
+
+.datayacht .item {
+    background-color: white;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+}
+
+.item h1 {
+    padding: 30px 0;
+}
+.item img {
+    width: 80%;
+}
+
+.beginner {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.beginner .enjin {
+    width: 80%;
+    max-width: 700px;
+    margin: 30px 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.beginner .flash {
+    width: 200px;
+}
+
+.beginner .titlebeginner{
+    width: 300px;
+}
+
+.beginner .info {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+    line-height: 2;
+}
+
+.beginnertalk {
+    text-align: center;
+    background: #f0f0f0;
+    padding: 100px 0;
+}
+
+.beginnertalk .flash {
+    width: 200px;
+}
+
+.beginnertalk .titlebeginnertalk {
+    width: 350px;
+}
+
+.talk {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.talk h1 {
+    padding: 50px 0;
+}
+
+.talk h2 {
+    padding: 20px 0;
+    line-height: 2;
+}
+
+.talk img {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px black solid;
+}
+
+.talk p {
+    display: inline-block;
+    width: 300px;
+    padding: 0 30px;
+    line-height: 2;
+    text-align: left;
+}
+
+.keikensya {
+    background: #85023E;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.keikensya .flash {
+    display: inline-block;
+    width: 200px;
+}
+
+.keikensya .title {
+    display: inline-block;
+    width: 350px;
+}
+
+.keikensya .talk img {
+    border:white 5px  solid;
+}
+
+.manager {
+    text-align: center;
+    background: #f0f0f0;
+    padding: 100px 0;
+}
+
+.manager .flash {
+    width: 200px;
+}
+
+.manager .titlemanager {
+    width: 350px;
+}
+
+.obog {
+    padding: 100px 0;
+    background: #85023E;
+    color: white;
+    text-align: center;
+}
+
+.obog .flash {
+    width: 200px;
+}
+
+.obog .title {
+    width: 300px;
+}
+
+.obog .oikon {
+    width: 80%;
+    max-width: 700px;
+    margin: 30px 0;
+}
+
+.obog p {
+    display: inline-block;
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+    line-height: 2;
+}
+
+.obog ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.trial {
+    text-align: center;
+    padding: 100px 0;
+    background: #f0f0f0;
+    line-height: 2;
+}
+
+.trial .flash {
+    width: 200px;
+}
+
+.trial .titleevent {
+    width: 350px;
+}
+
+.trial .sijoukai {
+    width: 80%;
+    max-width: 700px;
+    margin: 50px 0;
+}
+
+.trial p {
+    width: 300px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trial .line {
+    margin: 30px 0;
+}
+
+.trial ol, ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.trial table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.trial .bira {
+    width: 80%;
+    max-width: 700px;
+    padding: 50px 0;
+}
+
+.links {
+    color: blue;
+    font-size: 14px;
+    text-align: center;
+}
+
+.links .linkgroup{
+    display: inline-block;
+}
+
+
+footer {
+    color: white;
+    font-size: 1px;
+    text-align: center;
+    background: black;
+    height: 20px;
+    padding-top: 10px;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+@media (min-width: 900px){
+    .aboutclass {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutclass .class {
+        width: 400px;
+        margin: 0 50px;
+    }
+
+    .captain .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .datayacht .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .beginnertalk .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .keikensya .talk .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .manager .container {
+        display: flex;
+        justify-content: center;
+    }
+}
